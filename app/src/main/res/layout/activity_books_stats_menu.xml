@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Books_stats_menu">
+
+    <ImageView
+        android:id="@+id/IvIssuedBook"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="130dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/books5" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Issued Books"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/IvAllBooks"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="130dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/bookslogo" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="All Books"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

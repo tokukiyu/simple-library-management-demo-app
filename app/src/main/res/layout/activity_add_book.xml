@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".AddBook">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/add_books" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Fill all the fields to add book"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/EtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#00000000"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Enter name of Book here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EtBookEdition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#00000000"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Enter edition of Book here"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <EditText
+        android:id="@+id/EtbookPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#00000000"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Enter publisher of Book here"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <EditText
+        android:id="@+id/EtbookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#00000000"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Enter price of Book here"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <EditText
+
+        android:id="@+id/EtbookPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#00000000"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Enter pages of Book here"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <Button
+        android:id="@+id/BtnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Add Book"
+        android:textColor="@color/colorLightDark" />
+
+</LinearLayout>
